@@ -41,7 +41,7 @@ figure{cursor: pointer;; overflow: hidden; border-radius:10px ; -webkit-border-r
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
 }
-/* #contacus{display: none;} */
+#contacus{display: none;}
 .alert{ display: none;background-color: #f8d7da;text-align: center; padding: 10px 50px;color: brown;}
 #contacus .fa-solid{top: 30%;right: 10px;}
 .mybtn:hover{background-color: #dc3545;color: white;}
@@ -60,3 +60,6 @@ figure{cursor: pointer;; overflow: hidden; border-radius:10px ; -webkit-border-r
     background-color: black;
 }
 body{overflow-y: hidden;}
+@media screen and (max-width:750px) {
+    .list{width: 10%;}
+}
