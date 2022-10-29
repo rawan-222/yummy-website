@@ -1,0 +1,62 @@
+body{background-color: black;}
+.list{width: 4.5%;z-index: 999;;position: fixed; left: 0;top: 0;bottom: 0;background-color: #f8f6f6;}
+.list i{cursor: pointer;}
+.listcontent{position: fixed;z-index: 999;;left: -100%;top: 0;bottom: 0;color: white;}
+.listcontent h5{ opacity: 0;margin-top: 150px;cursor: pointer; }
+.mealname{ cursor: pointer;;background-color: rgba(225, 225,225, 0.7); top: 100%; height: 100%; transition: 1s all; -webkit-transition: 1s all; -moz-transition: 1s all; -ms-transition: 1s all; -o-transition: 1s all; }
+figure:hover .mealname{top:0;}
+figure{cursor: pointer;; overflow: hidden; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; }
+.list-unstyled li{
+    margin: 15px;
+    background-color: #d4edda;
+   
+   
+}
+.tags{background-color:#f8d7da;display: inline-block;}
+#Instructionsofmeals{display: none;
+}
+#search{display: none;}
+#search input{
+    border: 0px;
+    border-bottom: 2px solid rgba(225, 225,225, 0.7);
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+#Areas,#contacus {width: 60%;display:none}
+#category{width: 75%;display:none}
+#Areas .col-lg-3 {cursor: pointer;}
+#Ingredients .col-xl-3{cursor:pointer;}
+#search .position-fixed {left: 0px;right: 0px;z-index: 99;}
+#search .position-fixed input{background-color: black;}
+#contacus input{
+    border: 0px;
+    border-bottom: #d4edda 0.5px solid;
+    box-shadow:0 8px 15px rgba(225, 225,225, 0.3);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+/* #contacus{display: none;} */
+.alert{ display: none;background-color: #f8d7da;text-align: center; padding: 10px 50px;color: brown;}
+#contacus .fa-solid{top: 30%;right: 10px;}
+.mybtn:hover{background-color: #dc3545;color: white;}
+.mybtn{ background-color: transparent; transition:0.5s ; -webkit-transition:0.5s ; -moz-transition:0.5s ; -ms-transition:0.5s ; -o-transition:0.5s ; }
+.mybtn ,.btn1{color: #dc3545;}
+.loadingscrean{
+    position:fixed;
+    z-index: 9999999;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+body{overflow-y: hidden;}
